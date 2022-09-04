@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffd569;
+
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whiteBg {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.fruitsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 250px;
+  height: 350px;
+}
+.button {
+  background-color: #007bff;
+  height: 32px;
+  width: 120px;
+  border-radius: 10px;
+  font-family: 'roboto';
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+.heading {
+  color: #000000;
+  font-size: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clrYellow {
+  color: #ffd569;
+  font-size: 36px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .fruitsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 350px;
+    height: 450px;
+  }
+}
